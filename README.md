@@ -1,1 +1,2 @@
-# Latihan
+# Info
+Folder Latihan website
