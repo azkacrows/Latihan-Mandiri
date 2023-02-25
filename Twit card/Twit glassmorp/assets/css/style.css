@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+     background-image: url("https://wallpapercave.com/wp/wp9374140.jpg");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     min-height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.container {
+     backdrop-filter: blur(4px) saturate(180%);
+     -webkit-backdrop-filter: blur(4px) saturate(180%);
+     width: 602px;
+     height: 228px;
+     border-radius: 10px;
+     display: flex;
+     flex-direction: column;
+     position: fixed;
+     justify-content: center;
+     align-items: center;
+     background-color: rgba(36, 52, 71, 0.7);
+}
+
+.dire {
+     padding: 35px 31px;
+}
+
+.card {
+     width: 539px;
+     height: 50px;
+     display: flex;
+     flex-direction: row;
+}
+
+.card img {
+     width: 30px;
+     height: 30px;
+     float: right;
+     display: block;
+     margin-top: auto;
+     margin-left: auto;
+     margin-bottom: auto;
+}
+
+.frame {
+     width: 167px;
+     height: 50px;
+}
+
+.frame img {
+     width: 50px;
+     height: 50px;
+     border-radius: 50px;
+     float: left;
+     display: block;
+     margin-right: 22px;
+}
+
+.nama h1 {
+     color: #ffffff;
+     font-size: 18px;
+     font-weight: bold;
+}
+.nama h3 {
+     font-size: 16px;
+     color: rgba(255, 255, 255, 0.6);
+     font-weight: lighter;
+}
+
+.content {
+     margin-top: 15px;
+     margin-bottom: 15px;
+     color: #ffffff;
+}
+
+.mini-card {
+     width: 232px;
+     height: 26px;
+     display: flex;
+     flex-direction: row;
+     color: rgba(255, 255, 255, 0.6);
+}
+
+.frame2 {
+     width: 59px;
+     height: 26px;
+     display: flex;
+     flex-direction: row;
+}
+
+.frame2 img {
+     width: 24px;
+     height: 24px;
+     margin-right: 10px;
+     margin-bottom: 2px;
+}
+
+.mini-card .date {
+     margin-left: 20px;
+}
